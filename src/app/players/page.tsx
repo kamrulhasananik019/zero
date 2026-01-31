@@ -23,7 +23,7 @@ const players = [
     role: "Entry Fragger",
     country: "Philippines",
     age: 20,
-    image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&h=800&fit=crop",
+    image: "./players/HAWKS.png",
     bio: "Known for his lightning-fast reflexes and fearless entries. Shadow creates space for the team with his aggressive pushes.",
     stats: { kills: 12850, winRate: "91%", kd: "3.8", matches: 980 },
     social: { twitter: "#", youtube: "#", twitch: "#" },

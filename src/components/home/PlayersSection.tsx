@@ -17,7 +17,7 @@ const players = [
     id: "2",
     name: "SHADOW",
     role: "Entry Fragger",
-    image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=500&fit=crop",
+    image: "./players/HAWKS.png",
     stats: { kills: 12850, winRate: "91%", kd: "3.8" },
   },
   {
@@ -67,7 +67,7 @@ export function PlayersSection() {
               transition={{ delay: index * 0.1 }}
               className="player-card glass-card gaming-border group"
             >
-              <div className="relative h-64 overflow-hidden rounded-t-xl">
+              <div className="relative h-80 overflow-hidden rounded-t-xl">
                 <img
                   src={player.image}
                   alt={player.name}
