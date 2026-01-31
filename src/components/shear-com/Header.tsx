@@ -10,6 +10,7 @@ import { Menu, X } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -35,8 +36,11 @@ export function Header() {
         <Link href="/" className="flex items-center gap-3 group">
           <div className="relative">
             <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center border border-primary/50 group-hover:glow-primary transition-all duration-300">
-              <span className="font-display font-bold text-2xl text-primary">
+              {/* <span className="font-display font-bold text-2xl text-primary">
                 ZS
+              </span> */}
+                <span className="font-display font-bold text-2xl text-primary">
+               <img src="./logo/logo.png" alt="" />
               </span>
             </div>
 
