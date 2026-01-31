@@ -18,7 +18,7 @@ const videos = [
     title: "Regional Finals Highlights - Zero Strikes vs Phoenix Gaming",
     thumbnail:
       "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&h=450&fit=crop",
-    youtubeId: "dQw4w9WgXcQ",
+    youtubeId: "JnX7Oc8LqD8",
     views: "125K",
     duration: "12:34",
     category: "Highlights",
@@ -29,7 +29,7 @@ const videos = [
     title: "PHOENIX Insane 1v4 Clutch - Must Watch!",
     thumbnail:
       "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=450&fit=crop",
-    youtubeId: "dQw4w9WgXcQ",
+    youtubeId: "JnX7Oc8LqD8",
     views: "89K",
     duration: "5:22",
     category: "Highlights",
@@ -40,7 +40,7 @@ const videos = [
     title: "Zero Strikes Official Team Documentary",
     thumbnail:
       "https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?w=800&h=450&fit=crop",
-    youtubeId: "dQw4w9WgXcQ",
+    youtubeId: "JnX7Oc8LqD8",
     views: "245K",
     duration: "25:18",
     category: "Behind the Scenes",
@@ -51,7 +51,7 @@ const videos = [
     title: "Winter Championship Grand Finals Full Match",
     thumbnail:
       "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800&h=450&fit=crop",
-    youtubeId: "dQw4w9WgXcQ",
+    youtubeId: "JnX7Oc8LqD8",
     views: "180K",
     duration: "45:22",
     category: "Tournaments",
@@ -62,7 +62,7 @@ const videos = [
     title: "Pro Tips: Movement Mechanics Explained by SHADOW",
     thumbnail:
       "https://images.unsplash.com/photo-1493711662062-fa541f7f58e5?w=800&h=450&fit=crop",
-    youtubeId: "dQw4w9WgXcQ",
+    youtubeId: "JnX7Oc8LqD8",
     views: "67K",
     duration: "15:45",
     category: "Tutorials",
@@ -186,6 +186,7 @@ export default function VideosPage() {
 
                 <div className="p-4">
                   <h3 className="font-bold line-clamp-2">{video.title}</h3>
+
                   <p className="text-sm text-muted-foreground mt-2">
                     {video.views} views
                   </p>

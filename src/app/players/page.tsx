@@ -11,7 +11,7 @@ const players = [
     role: "Team Captain / Fragger",
     country: "Singapore",
     age: 22,
-    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=800&fit=crop",
+    image: "./players/abid.png",
     bio: "The heart and soul of Zero Strikes. Phoenix leads by example with his aggressive playstyle and clutch performances.",
     stats: { kills: 15420, winRate: "94%", kd: "4.2", matches: 1250 },
     social: { twitter: "#", youtube: "#", twitch: "#" },

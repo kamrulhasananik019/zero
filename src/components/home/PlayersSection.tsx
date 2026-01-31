@@ -10,7 +10,7 @@ const players = [
     id: "1",
     name: "PHOENIX",
     role: "Team Captain / Fragger",
-    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&h=500&fit=crop",
+    image: "./players/abid.png",
     stats: { kills: 15420, winRate: "94%", kd: "4.2" },
   },
   {
