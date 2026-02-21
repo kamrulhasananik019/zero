@@ -54,7 +54,7 @@ export default function BlogsAdmin() {
   };
 
   useEffect(() => {
-    fetchBlogs();
+    // fetchBlogs();
   }, []);
 
   const openModal = (blog?: Blog) => {
